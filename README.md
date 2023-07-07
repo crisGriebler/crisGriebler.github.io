@@ -2,6 +2,18 @@
 <h1 align="center">Hi 👋, I'm Cristian Griebler</h1>
 <h3 align="center">A data scientist working from Brazil</h3>
 
+- 🔭 I’m currently working on **Health Tech Project**
+
+- 🌱 I’m currently learning **Hadoop, Django and Scala**
+
+- 👯 I’m looking to collaborate on **Machine learning / Artificial Intelligence projects**
+
+- 💬 Ask me about **Data Science, Finance and Science**
+
+- 📫 How to reach me **cristiangrb@gmail.com**
+
+- 📄 Know about my experiences [https://github.com/crisGriebler/crisGriebler.github.io/blob/main/CV23pdf.pdf](https://github.com/crisGriebler/crisGriebler.github.io/blob/main/CV23pdf.pdf)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/cristiangriebler/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/cristiangriebler/" height="30" width="40" /></a>
