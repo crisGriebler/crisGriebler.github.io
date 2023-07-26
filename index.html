@@ -592,35 +592,64 @@
                 <!-- blog-card -->
                 <div class="blog-card">
                     <div class="img-holder"></div>
-                        <div class="slideshow-container">
-                          <div class="slide fade">
-                            <img src="assets/imgs/senai.png" alt="Image 1">
-                            <p>Associated Text 1</p>
-                          </div>
-                          <div class="slide fade">
-                            <img src="assets/imgs/uel.png" alt="Image 2">
-                            <p>Associated Text 2</p>
-                          </div>
-                          <div class="slide fade">
-                            <img src="image3.jpg" alt="Image 3">
-                            <p>Associated Text 3</p>
-                          </div>
-                        </div>
-                      
-                        <script>
-                          // JavaScript to handle the image and text changing over time
-                          const slides = document.querySelectorAll('.slide');
-                          let currentSlideIndex = 0;
-                      
-                          function showNextSlide() {
-                            slides[currentSlideIndex].style.display = 'none'; // Hide current slide
-                            currentSlideIndex = (currentSlideIndex + 1) % slides.length; // Move to the next slide
-                            slides[currentSlideIndex].style.display = 'block'; // Show the new slide
-                          }
-                      
-                          // Change the slide every 3 seconds (adjust the time as needed)
-                          setInterval(showNextSlide, 3000);
-                        </script>
+                        <head>
+                            <title>Image and Text Slideshow</title>
+                            <style>
+                              .slideshow-container {
+                                max-width: 500px;
+                                position: relative;
+                                margin: auto;
+                              }
+                          
+                              .slide {
+                                display: none;
+                              }
+                          
+                              .fade {
+                                animation: fadeAnimation 1.5s ease-in-out infinite;
+                              }
+                          
+                              @keyframes fadeAnimation {
+                                0%, 100% {
+                                  opacity: 0;
+                                }
+                                20%, 80% {
+                                  opacity: 1;
+                                }
+                              }
+                            </style>
+                        </head>
+                        <body>
+                            <div class="slideshow-container">
+                              <div class="slide fade">
+                                <img src="assets/imgs/senai.png" alt="Image 1">
+                                <p>Associated Text 1</p>
+                              </div>
+                              <div class="slide fade">
+                                <img src="assets/imgs/uel.png" alt="Image 2">
+                                <p>Associated Text 2</p>
+                              </div>
+                              <div class="slide fade">
+                                <img src="image3.jpg" alt="Image 3">
+                                <p>Associated Text 3</p>
+                              </div>
+                            </div>
+                        
+                            <script>
+                              // JavaScript to handle the image and text changing over time
+                              const slides = document.querySelectorAll('.slide');
+                              let currentSlideIndex = 0;
+                            
+                              function showNextSlide() {
+                                slides[currentSlideIndex].style.display = 'none'; // Hide current slide
+                                currentSlideIndex = (currentSlideIndex + 1) % slides.length; // Move to the next slide
+                                slides[currentSlideIndex].style.display = 'block'; // Show the new slide
+                              }
+                          
+                              // Change the slide every 3 seconds (adjust the time as needed)
+                              setInterval(showNextSlide, 3000);
+                            </script>
+                        </body>             
                 </div><!-- end of blog wrapper -->
             </div>
         </div>
